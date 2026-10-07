@@ -3,7 +3,7 @@
 Lean 4 / Mathlib formalization of key results from
 
 - H. Song, *Exact moments of tree balance indices under the Yule and uniform models* (2026), and
-- H. Song, *Transfer theorems and the phase diagram of limit laws for Aldous's beta-splitting trees* (2026).
+- H. Song, *Asymptotic transfer, variances and limit laws for Aldous's beta-splitting trees* (2026).
 
 Toolchain: Lean v4.34.1, Mathlib v4.34.1 (pinned in `lake-manifest.json`). Build with `lake exe cache get && lake build`; CI runs the same in `.github/workflows/build.yml`. No `sorry`; main theorems depend only on `propext`, `Classical.choice`, `Quot.sound`.
 
